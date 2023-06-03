@@ -900,7 +900,7 @@ height: 100%;
 }
 
 @media screen and (max-width: 600px){
-  #resume-button-1{
+  #resume-button{
     display: none;
   }
  .githubs img{
