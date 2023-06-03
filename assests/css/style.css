@@ -174,7 +174,7 @@ header .navbar ul li a:hover{
 /* hamburger icon ends */
 
 /* hero section starts*/
-.home{
+.homes{
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -182,61 +182,61 @@ header .navbar ul li a:hover{
   min-height: 100vh;
   align-items: center;
 }
-.home #particles-js{
+.homes #particles-js{
   position: absolute;
   top: 0;left: 0;
   height: 100%;
   width: 100%;
 }
-.home::before{
+.homes::before{
   content: '';
   position: absolute;
   top: 0;left: 0;
   height: 100%;
   width: 100%;
 }
-.home .content{
+.homes .content{
   flex: 1 1 40rem;
   padding-top: 1rem;
   z-index: 1;
 }
-.home .image{
+.homes .image{
   flex: 1 1 40rem;
   z-index: 1;
 }
-.home .image img{
+.homes .image img{
   width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.home .image img:hover{
+.homes .image img:hover{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-.home .content h3{
+.homes .content h3{
   font-size: 5rem;
   font-weight: 800;
   color: #002057;
 }
-.home .content h3 span{
+.homes .content h3 span{
   font-size: 5rem;
   font-weight: 800;
   color: #0984ad;
 }
-.home .content p{
+.homes .content p{
   font-size: 2.5rem;
   color: #000;
   font-weight: 600;
   padding: 1rem 0;
 }
-.home .content p span{
+.homes .content p span{
   font-size: 2.5rem;
   color: #0984ad;
   font-weight: 600;
   padding: 1rem 0;
 }
-.home .btn {
+.homes .btn {
   margin-top: 1rem;
   position: absolute;
   line-height: 0;
@@ -248,20 +248,20 @@ header .navbar ul li a:hover{
   box-shadow: 0px 5px 18px #01030b(145, 136, 12, 0.6);
   font-family: 'Nunito', sans-serif;
 }
-.home .btn span {
+.homes .btn span {
   font-weight: 700;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
 }
-.home .btn i {
+.homes .btn i {
   margin-left: 0.3rem;
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.home .btn:hover{
+.homes .btn:hover{
   background: #1a047e;
 }
-.home .btn:hover i {
+.homes .btn:hover i {
   transform: translateX(5px);
 }
 /* social icons start */
@@ -897,4 +897,14 @@ height: 100%;
   background: #e5ecfb;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 600px){
+  #resume-button-1{
+    display: none;
+  }
+ .githubs img{
+  width: 300px;
+  height: 200px;
+ }
 }
