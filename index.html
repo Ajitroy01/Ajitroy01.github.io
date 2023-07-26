@@ -175,7 +175,7 @@
 <!-- work project section starts -->
 <section id="projects" class="project">
 <div class="swiper mySwiper project-cont">
-  <h2 class="heading" style="margin-bottom: 20px; color:#fff"><i class="fas fa-laptop-code"></i> PROJECTS</span></h2>
+  <h2 class="heading" id="head-project" style="margin-bottom: 20px; color:#fff"><i class="fas fa-laptop-code"></i> PROJECTS</span></h2>
     <div class="swiper-wrapper project-content">
       <div class="swiper-slide project-card">
         <div class="card-img">
@@ -330,6 +330,9 @@
     </div>
     <div class="swiper-pagination"></div>
 </div>
+
+<div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>
 </section>
 <!-- work project section ends -->
 
@@ -338,10 +341,10 @@
   <div class="calendar">
   </div>
   <br>
+  <img  id="github-top-langs"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajitroy01&langs_count=5&theme=tokyonight" alt="">
   <div class="githubs">
-    <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Ajitroy01&theme=transparent" alt="">
-    <img  id="github-top-langs"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajitroy01&size_weight=0.5&count_weight=0.5" alt="">
-    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Ajitroy01&show_icons=true&theme=transparent" alt="">
+    <img id="github-streak-stats" src="https://streak-stats.demolab.com/?user=Ajitroy01&theme=tokyonight" alt="">
+    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api/?username=Ajitroy01&count_private=true&theme=tokyonight&showicons=true" alt="">
   </div>
 </section>
 
@@ -416,17 +419,14 @@
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "cube",
-      grabCursor: true,
-      cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-      },
+      var swiper = new Swiper(".mySwiper", {
       pagination: {
         el: ".swiper-pagination",
+        type: "progressbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });
   </script>

@@ -25,6 +25,21 @@
         "name": "Hibernate",
         "icon": "https://a.fsdn.com/allura/p/hibernate/icon?1547131289?&w=90"
     },
+
+    {
+    "name": "Spring Boot",
+    "icon": "https://th.bing.com/th/id/OIP.0T_CaH2TNe3dTcI8zYyLjgHaHa?w=152&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+
+    {
+        "name": "Spring MVC",
+        "icon": "https://th.bing.com/th/id/R.d8469eae9c8a4aa8ba0104a9d636d5f8?rik=WXdhpHKO0QTl6g&riu=http%3a%2f%2fhmkcode.github.io%2fimages%2fspring%2fspring.png&ehk=l%2b%2fhOIEAi407AyPHHjQT0NnUHU%2fH%2bjQzbnquLbAEdSI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+   },
+
+   {
+    "name": "SpringSecurity",
+    "icon": "https://img.stackshare.io/service/6656/com.castsoftware.springsecurity.png"
+   },
     {
         "name": "Netlify",
         "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
