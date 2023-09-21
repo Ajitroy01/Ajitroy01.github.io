@@ -137,7 +137,7 @@ header .navbar ul li a:hover{
 }
 @media(max-width:768px){
   #menu{
-      display: block;
+      display: flex;
   }
   header .navbar{
     position: fixed;
@@ -214,14 +214,11 @@ header .navbar ul li a:hover{
   z-index: 1;
 }
 .homes .image img{
-  width: 70%;
+  width: 80%;
   margin-left: 6rem;
-  border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 30%;
   cursor: pointer;
-}
-.homes .image img:hover{
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 30px -28px inset;
 }
 .homes .content h3{
   font-size: 5rem;
@@ -519,7 +516,7 @@ header .navbar ul li a:hover{
   margin-left: 0.5rem;
 }
 /* skills media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px){
   .skill .container {
     padding: 0;
     margin: 0;
@@ -924,15 +921,18 @@ height: 100%;
   width: 350px;
   height: 250px;
  }
+ .githubs{
+  flex-direction: column;
+ }
 }
 
 .swiper-button-next{
   margin-right: 40px;
-  color: #fff;
+  color: #1e1818;
 }
 .swiper-button-prev{
   margin-left: 40px;
-  color: #fff;
+  color: #1e1818;
 }
 
 #head-project{
