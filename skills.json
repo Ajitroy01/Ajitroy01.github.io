@@ -1,68 +1,67 @@
 [
-   
-    {
-        "name": "HTML5",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-        "name": "CSS3",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-        "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-   
-    {
-        "name": "Hibernate",
-        "icon": "https://a.fsdn.com/allura/p/hibernate/icon?1547131289?&w=90"
-    },
+  {
+    "name": "HTML5",
+    "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+  {
+    "name": "CSS3",
+    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    "name": "Java",
+    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+  },
+  {
+    "name": "Angular",
+    "icon": "https://www.svgrepo.com/show/353396/angular-icon.svg"
+  },
+  {
+    "name": "MySQL",
+    "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+  },
 
-    {
+  {
+    "name": "Hibernate",
+    "icon": "https://a.fsdn.com/allura/p/hibernate/icon?1547131289?&w=90"
+  },
+
+  {
     "name": "Spring Boot",
     "icon": "https://th.bing.com/th/id/OIP.0T_CaH2TNe3dTcI8zYyLjgHaHa?w=152&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-    },
+  },
 
-    {
-        "name": "Spring MVC",
-        "icon": "https://th.bing.com/th/id/R.d8469eae9c8a4aa8ba0104a9d636d5f8?rik=WXdhpHKO0QTl6g&riu=http%3a%2f%2fhmkcode.github.io%2fimages%2fspring%2fspring.png&ehk=l%2b%2fhOIEAi407AyPHHjQT0NnUHU%2fH%2bjQzbnquLbAEdSI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
-   },
+  {
+    "name": "Spring MVC",
+    "icon": "https://th.bing.com/th/id/R.d8469eae9c8a4aa8ba0104a9d636d5f8?rik=WXdhpHKO0QTl6g&riu=http%3a%2f%2fhmkcode.github.io%2fimages%2fspring%2fspring.png&ehk=l%2b%2fhOIEAi407AyPHHjQT0NnUHU%2fH%2bjQzbnquLbAEdSI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+  },
 
-   {
+  {
     "name": "SpringSecurity",
     "icon": "https://img.stackshare.io/service/6656/com.castsoftware.springsecurity.png"
-   },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    },
-    {
-        "name": "VS Code",
-        "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
-    },
+  },
+  {
+    "name": "Generative AI",
+    "icon": "https://www.svgrepo.com/show/352965/ai.svg"
+  },
+  {
+    "name": "VS Code",
+    "icon": "https://code.visualstudio.com/assets/images/code-stable.png"
+  },
 
-    {
-        "name": "STS",
-        "icon": "https://1.bp.blogspot.com/-QsZYakuFeZc/YOu85v4QZCI/AAAAAAAAL4o/swwm0PB0uW8Y2-SEYLi--s8byFieqcshACNcBGAsYHQ/w400-h400/spring.webp"
-    },
-    {
-        "name": "JSON",
-        "icon": "https://th.bing.com/th/id/OIP.9dISPBR5OQZtYqWsf1lSGwHaHa?pid=ImgDet&rs=1"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "Team Work",
-        "icon": "https://img.icons8.com/color/48/000000/teamwork.png"
-    }    
+  {
+    "name": "STS",
+    "icon": "https://1.bp.blogspot.com/-QsZYakuFeZc/YOu85v4QZCI/AAAAAAAAL4o/swwm0PB0uW8Y2-SEYLi--s8byFieqcshACNcBGAsYHQ/w400-h400/spring.webp"
+  },
+  {
+    "name": "JSON",
+    "icon": "https://th.bing.com/th/id/OIP.9dISPBR5OQZtYqWsf1lSGwHaHa?pid=ImgDet&rs=1"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  }
 ]
