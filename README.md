@@ -2,7 +2,8 @@
 
 Welcome to my portfolio! This repository showcases my work, skills, and experiences as a web developer. I've designed this portfolio using HTML, CSS, and JavaScript to create a responsive and visually appealing showcase of my projects.
 
-![Portfolio Preview](images/portfolio-preview.png)
+![Portfolio Preview](https://drive.google.com/uc?id=1Zu1Qfb4gPKr9L8IP4fSuY-TRE6oJvgbq
+)
 
 ## Table of Contents
 
@@ -10,7 +11,6 @@ Welcome to my portfolio! This repository showcases my work, skills, and experien
 - [Features](#features)
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Introduction
 
