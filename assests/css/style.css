@@ -171,6 +171,13 @@ header .navbar ul li a:hover {
     color: #fff;
     font-size: 2rem;
   }
+  #fix {
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: #fff;
+    font-size: 2rem;
+  }
   header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
@@ -358,21 +365,21 @@ header .navbar ul li a:hover {
 /* hero section end */
 
 /* about section starts */
-.about {
+.abouts {
   background: rgb(255, 255, 255);
 }
-.about .row {
+.abouts .row {
   display: flex;
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
   padding: 4rem;
 }
-.about .row .image {
+.abouts .row .image {
   text-align: center;
   flex: 1 1 35rem;
 }
-.about .row .image img {
+.abouts .row .image img {
   margin: 4rem;
   width: 30rem;
   border-radius: 5%;
@@ -380,40 +387,40 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   cursor: pointer;
 }
-.about .row .image img:hover {
+.abouts .row .image img:hover {
   mix-blend-mode: normal;
 }
-.about .row .content {
+.abouts .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
 }
-.about .row .content h3 {
+.abouts .row .content h3 {
   color: rgb(27, 27, 27);
   font-size: 2.5rem;
 }
-.about .row .content .tag {
+.abouts .row .content .tag {
   font-size: 1.4rem;
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
 }
-.about .row .content p {
+.abouts .row .content p {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
 }
-.about .row .content .box-container {
+.abouts .row .content .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   font-family: "Nunito";
   font-weight: 600;
 }
-.about .row .content .box-container .box p {
+.abouts .row .content .box-container .box p {
   text-transform: none;
 }
-.about .row .content .box-container .box p span {
+.abouts .row .content .box-container .box p span {
   color: #424fc9;
 }
 .resumebtn {
